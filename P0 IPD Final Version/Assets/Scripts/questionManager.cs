@@ -30,29 +30,29 @@ public class questionManager : MonoBehaviour
     //Laver en liste til vores spørgsmål
     public questionsRow[] questions;
 
-   //Fortæller hvilken scene der er vores slutskærm
-    int endScene=2;
+    //Fortæller hvilken scene der er vores slutskærm
+    int endScene = 2;
     // Start is called before the first frame update
     void Start()
     {
         displayUpdate();
-    
-    
-    
+
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     void displayUpdate()
     {
-        for(int i = 0; i < button.Length; ++i)
+        for (int i = 0; i < button.Length; ++i)
         {
             buttonImage[i].sprite = questions[questionIndex].questions[i].buttonImage;
             button[i].text = questions[questionIndex].questions[i].answer;
-            
+
 
         }
         questionDisplay.text = questions[questionIndex].question;
@@ -67,7 +67,7 @@ public class questionManager : MonoBehaviour
         if (questionIndex >= questions.Length)
         {
             SceneManager.LoadScene(endScene);
-            
+
         }
         else
         {

@@ -14,14 +14,14 @@ public class endScreen : MonoBehaviour
     public string[] con15;
     public string[] con2;
     public string[] con3;
-    
+
     //En statisk tekst der altid står før ens usertype 
     public string usertypeIntro;
-   //Selve meme bileldet
+    //Selve meme bileldet
     public Image meme;
     //Memebillede liste (Liste bliver lavet med "[]")
     public Sprite[] memebillede;
-   
+
     //Gør plads i Unity til at skrive tekst til de svar man har givet tidligere i quizzen
     public TextMeshProUGUI answerDisplay;
     public TextMeshProUGUI answerDisplay2;
@@ -56,7 +56,7 @@ public class endScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
 
 
     }

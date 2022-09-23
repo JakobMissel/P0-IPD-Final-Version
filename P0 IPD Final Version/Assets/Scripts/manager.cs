@@ -24,7 +24,7 @@ public class manager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    
+
     }
 
 
