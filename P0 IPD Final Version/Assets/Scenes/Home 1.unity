@@ -495,7 +495,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2070696473}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: backToBasics
+        m_MethodName: prevquestion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2529,6 +2529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7521cbca3f2a7eb4ab0d9ee31c303308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  questionIndex: 0
   button:
   - {fileID: 1950598888}
   - {fileID: 1951977679}

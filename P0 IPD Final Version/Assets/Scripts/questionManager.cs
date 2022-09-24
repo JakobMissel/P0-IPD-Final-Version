@@ -7,10 +7,14 @@ using UnityEngine.UI;
 //Den der gør så vi kan skifte scene
 using UnityEngine.SceneManagement;
 
+
 public class questionManager : MonoBehaviour
 {
+
+    public static questionManager instance;
+
     //Holder styr på hvilket spørgsmål vi er på (ved brug af hel tal(Spørgsmål 1 eller 2 eller 3))
-    int questionIndex;
+    public int questionIndex;
 
     //Laver en knaplliste
     public TextMeshProUGUI[] button;
@@ -46,18 +50,19 @@ public class questionManager : MonoBehaviour
     {
 
     }
-    void displayUpdate()
+
+    public void displayUpdate()
     {
         for (int i = 0; i < button.Length; ++i)
         {
             buttonImage[i].sprite = questions[questionIndex].questions[i].buttonImage;
             button[i].text = questions[questionIndex].questions[i].answer;
-
-
         }
+        
         questionDisplay.text = questions[questionIndex].question;
         background.sprite = backgroundListe[questionIndex];
         progressbar.sprite = progressbarList[questionIndex];
+        
     }
     //Gemmer hvor langt vi er 
     public void buttonClick(int i)
@@ -75,6 +80,8 @@ public class questionManager : MonoBehaviour
         }
 
     }
+
+
 
 }
 //Serializable Gør så Unity genkender class'en

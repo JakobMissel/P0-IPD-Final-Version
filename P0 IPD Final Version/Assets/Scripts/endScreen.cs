@@ -11,7 +11,7 @@ public class endScreen : MonoBehaviour
 {
     //Laver en tekst liste til de forskellige konklusioner (Deres tekst er skrevet inde i unity)
     public string[] con1;
-    public string[] con15;
+    public string[] con1dot5;
     public string[] con2;
     public string[] con3;
 
@@ -40,7 +40,7 @@ public class endScreen : MonoBehaviour
         //Henter meme billedet an på hvad man svarede på spørgsmål 1
         meme.sprite = memebillede[manager.instance.questionAnswerList[0]];
         //Viser tekst fra første spørgsmål
-        answerDisplay.text = con15[manager.instance.questionAnswerList[0]];
+        answerDisplay.text = con1dot5[manager.instance.questionAnswerList[0]];
 
 
 
