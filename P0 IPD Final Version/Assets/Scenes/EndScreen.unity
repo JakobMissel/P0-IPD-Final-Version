@@ -157,30 +157,22 @@ MonoBehaviour:
   - 'Digital Picasso  '
   - VR Wizard
   - 'VFX Illusionist  '
-  con15:
-  - "P\xE5 Medialogi bliver du undervist af passionerede forskere, men du f\xE5r
-    ogs\xE5 selv en stor indflydelse p\xE5, hvad du vil arbejde med i dine projekter.
-    Du vil blive undervist i at kode i bl.a. C# og Python. Projektarbejdet p\xE5
-    AAU tager udgangspunkt i problemer fra verden udenfor universitetet, og her kommer
-    du til at programmere spil, apps og interaktive installationer fra bunden af.  "
-  - "P\xE5 Medialogi bliver du undervist af passionerede forskere, men du f\xE5r
-    ogs\xE5 selv en stor indflydelse p\xE5, hvad du vil arbejde med i dine projekter.
-    Du vil bl.a. blive undervist i animation, billedbehandling og visual computing.
+  con1dot5:
+  - "Du vil l\xE6re at kode i bl.a. c# og python. Projektarbejdet p\xE5 AAU tager
+    udgangspunkt i problemer fra verden udenfor universitetet, og her kommer du til
+    at programmere spil, apps og interaktive installationer fra bunden af"
+  - "Du vil bl.a. blive undervist i animation, billedbehandling og visual computing.
     Projektarbejdet p\xE5 AAU tager udgangspunkt i problemer fra verden udenfor universitetet,
     og her f\xE5r du mulighed for at designe digitale l\xF8sninger som er b\xE5de
-    brugervenlige og \xE6stetiske.    "
-  - "P\xE5 Medialogi bliver du undervist af passionerede forskere, men du f\xE5r
-    ogs\xE5 selv en stor indflydelse p\xE5, hvad du vil arbejde med i dine projekter.
-    Du vil blive undervist i at designe og programmere dine egne spiloplevelser i
-    3D-engines som Unity.  Projektarbejdet p\xE5 AAU tager udgangspunkt i problemer
-    fra verden udenfor universitetet, og her f\xE5r du mulighed for at arbejde med
-    state-of-the-art VR-udstyr i AAU's Multi Sensory experience lab. "
-  - "P\xE5 Medialogi bliver du undervist af passionerede forskere, men du f\xE5r
-    ogs\xE5 selv en stor indflydelse p\xE5, hvad du vil arbejde med i dine projekter.
-    Du vil bl.a. blive undervist i processering af lydsignaler, animation, og design
+    brugervenlige og \xE6stetiske. "
+  - "Du vil l\xE6re du at designe og programmere dine egne spiloplevelser i 3D-engines
+    som Unity.  Projektarbejdet p\xE5 AAU tager udgangspunkt i problemer fra verden
+    udenfor universitetet, og her f\xE5r du mulighed for at arbejde med state-of-the-art
+    VR-udstyr i AAU's Multi Sensory experience lab. "
+  - "Du vil bl.a. l\xE6re om processering af lydsignaler, animation, og om design
     af \u201CMixed reality\u201D oplevelser. Projektarbejdet p\xE5 AAU tager udgangspunkt
     i problemer fra verden udenfor universitetet, og her kan du f.eks. arbejde med
-    motion capture eller surround sound i AAU\u2019s Multisensory Experience Lab.   "
+    motion capture eller surround sound i AAU\u2019s Multisensory Experience Lab.  "
   con2:
   - "Og s\xE5 er det godt du kan lide vand, din normie ;) Der er heldigvis massere
     af vandposter til dig p\xE5 AAU\u2019s campus.   "
